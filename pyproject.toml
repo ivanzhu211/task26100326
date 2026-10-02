@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "session-stitcher"
+version = "0.1.0"
+description = "移动端行为事件的会话拼接库（SQLite 持久化，乱序/重发/修订无关）"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["session_stitcher"]
